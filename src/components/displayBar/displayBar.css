@@ -1,0 +1,77 @@
+.top-header {
+    padding-left: 13px;
+}
+
+.displayButton {
+    position: relative;
+    padding-top: 8px;
+}
+
+.display-btn {
+    height: 35px;
+    padding: 10px;
+    font-size: 14px;
+    background: #ffffff;
+    border: 2px solid #c1c1c1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 10px;
+}
+
+.displayIcon {
+    padding-right: 6px;
+}
+
+.downIcon {
+    padding-left: 3px;
+}
+
+.dropOnClick {
+    position: absolute;
+    width: 220px;
+    background-color: #f8f9fb;
+    border: 2px solid #e4e4e4;
+    border-radius: 8px;
+    margin-top: 11px;
+    z-index: 10;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.selectGroup {
+    padding: 2.5px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    font-size: 14px;
+    color: #555B5A;
+}
+
+.selectStyle {
+    width: 100px;
+    border-radius: 4px;
+    background: white;
+    padding: 2px 5px;
+    border-color: #d8d8d8;
+}
+
+.displayIcon {
+    padding-right: 4%;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropOnClick {
+        width: 100%;
+        max-width: 300px;
+    }
+}
