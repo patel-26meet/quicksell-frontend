@@ -19,6 +19,8 @@ import {ReactComponent as CancelledIcon} from './assets/icons_FEtask/Cancelled.s
 import {ReactComponent as Add} from './assets/icons_FEtask/add.svg'
 import {ReactComponent as Dot} from './assets/icons_FEtask/3 dot menu.svg'
 
+import GitHubLink from './githublink.js';
+
 function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -179,6 +181,7 @@ function App() {
           onGroupingChange={handleGroupingChange}
           onOrderingChange={handleOrderingChange}
         />
+        <GitHubLink className="link"/>
       </div>
       <div className='page'>
         <div className={`board ${grouping !== 'status' && grouping !== 'priority' ? 'scrollable' : ''}`}>
